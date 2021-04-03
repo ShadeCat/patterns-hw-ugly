@@ -10,6 +10,10 @@ public class Phone {
 
     @Override
     public final String toString() {
-        return "Телефон:\t" + number;
+        if (number != null) {
+            return "Телефон:\t" + number;
+        } else {
+            return "Телефона нет";
+        }
     }
 }

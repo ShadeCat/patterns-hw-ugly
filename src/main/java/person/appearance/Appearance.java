@@ -4,10 +4,10 @@ import person.appearance.hair.Hair;
 
 public class Appearance {
 
-    private final String eyes;
+    private final EyesColor eyes;
     private final Hair hair;
 
-    public Appearance(final String eyes, final Hair hair) {
+    public Appearance(final EyesColor eyes, final Hair hair) {
         this.eyes = eyes;
         this.hair = hair;
     }

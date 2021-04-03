@@ -24,7 +24,6 @@ public class FioGenerator {
         setFirstNameFromFile(getDigitsSum(code / 100), sex);
         setMiddleNameFromFile(getDigitsSum(code % 100), sex);
     }
-
     public final String getLastName() {
         return lastName;
     }
